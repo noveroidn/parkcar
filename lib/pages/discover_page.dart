@@ -14,7 +14,7 @@ class DiscoverPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFFBFBFB),
+    backgroundColor: const Color(0xFFFBFBFB),
       bottomNavigationBar: bottomNavigationBar(),
       body: const SingleChildScrollView(
         child: Column(
